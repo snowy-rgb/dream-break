@@ -13,9 +13,13 @@ body {
     animation: dream-background 10s infinite alternate;
 }
 
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
 h1 {
     font-size: 3em;
-    text-shadow: 0 0 20px #e94560, 0 0 40px #e94560;
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
 }
 
 #instructions {
