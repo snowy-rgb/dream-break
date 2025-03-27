@@ -1,0 +1,47 @@
+/* style.css */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: #ffffff;
+    font-family: 'Cursive', sans-serif;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: dream-background 10s infinite alternate;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 0 0 20px #e94560, 0 0 40px #e94560;
+}
+
+#instructions {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+button {
+    background-color: #e94560;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e94560;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #e94560;
+}
+
+@keyframes dream-background {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
