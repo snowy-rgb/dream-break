@@ -37,7 +37,7 @@ h1 {
 }
 
 button {
-    background-color: none;
+    background-color: black;
     border: 4px solid #ffffff;
     padding: 10px 20px;
     font-size: 1.2em;
