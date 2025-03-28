@@ -37,14 +37,15 @@ h1 {
 }
 
 button {
-    background-color: #e94560;
-    border: none;
+    background-color: none;
+    border: 4px solid #ffffff;
     padding: 10px 20px;
     font-size: 1.2em;
+    font-family: 'DungGeunMo';
     color: #ffffff;
     cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 15px #e94560;
+    border-radius: 8px;
+    box-shadow: 0 0 15px white;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
