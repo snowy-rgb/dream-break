@@ -56,6 +56,8 @@ button {
     box-shadow: 0 0 15px white;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-bottom: 10px;
+    width: 200px;
+    height: 50px
 }
 
 button:hover {
