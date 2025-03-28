@@ -18,10 +18,12 @@ body {
     align-items: center;
     flex-direction: column;
     animation: dream-background 10s infinite alternate;
+    overflow: hidden;
 }
 
-body {
-    font-family: 'Press Start 2P', cursive;
+
+canvas {
+    display: block;
 }
 
 h1 {
