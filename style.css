@@ -30,6 +30,14 @@ h1 {
     text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
 }
 
+#vers {
+    font-size: 1em;
+    font-family: 'DungGeunMo';
+    color: white;
+    text-shadow: 0 0 20px #ffffff, 0 0 40px #ffffff;
+    opacity: 0.8;
+}
+
 #instructions {
     font-size: 1.5em;
     margin-bottom: 20px;
