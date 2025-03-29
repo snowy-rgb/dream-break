@@ -10,9 +10,19 @@
     <h1>Dream Break</h1>
     <p id="vers">드림 브레이크 ver- (alpha) 1.0.0 <thanks for playing></p>
     <p id="instructions"></p>
-    <button id="startButton">   시작   </button>
-    <button id="setButton">   설정   </button>
+    <button id="startButton">시작</button>
+    <button id="setButton">설정</button>
     <button id="infoButton">more info</button>
     <canvas id="cloudCanvas"></canvas>
+    <script>
+        function resizeCanvas() {
+            const canvas = document.getElementById('cloudCanvas');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas(); // 초기 로드 시에도 호출
+    </script>
 </body>
 </html>
