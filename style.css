@@ -83,3 +83,11 @@ button:hover {
         font-size: 1.1em;
     }
 }
+
+/* 모바일 환경에서 가로 화면 수정 */
+@media (orientation: landscape) and (max-width: 600px) {
+    body {
+        background-size: cover; /* 배경 이미지 전체 화면 맞추기 */
+        height: 100%; /* 높이 자동 조정 */
+    }
+}
