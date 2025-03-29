@@ -28,10 +28,6 @@ body {
     user-select: none;         /* 기본 설정 */
 }
 
-canvas {
-    display: block;
-}
-
 h1 {
     font-size: 4em;
     font-family: 'DungGeunMo';
