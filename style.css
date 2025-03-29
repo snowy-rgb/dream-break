@@ -109,3 +109,10 @@ button:hover {
         font-size: 1.1em; /* 중간 화면에서 폰트 크기 조정 */
     }
 }
+
+/* mobile test */
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
