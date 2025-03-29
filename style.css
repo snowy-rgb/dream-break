@@ -77,3 +77,35 @@ button:hover {
     0% { background-position: 0% 50%; }
     100% { background-position: 100% 50%; }
 }
+
+/* 미디어 쿼리: 작은 화면 (모바일) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em; /* 작은 화면에서 폰트 크기 조정 */
+    }
+
+    #vers {
+        font-size: 0.7em; /* 작은 화면에서 폰트 크기 조정 */
+    }
+
+    #instructions {
+        font-size: 0.9em; /* 작은 화면에서 폰트 크기 조정 */
+    }
+
+    button {
+        font-size: 0.9em; /* 작은 화면에서 폰트 크기 조정 */
+        padding: 8px 20px; /* 작은 화면에서 패딩 값 조정 */
+        height: 35px; /* 작은 화면에서 높이 조정 */
+    }
+}
+
+/* 미디어 쿼리: 중간 화면 (태블릿) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 3.5em; /* 중간 화면에서 폰트 크기 조정 */
+    }
+
+    button {
+        font-size: 1.1em; /* 중간 화면에서 폰트 크기 조정 */
+    }
+}
